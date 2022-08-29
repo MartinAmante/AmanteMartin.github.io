@@ -1,0 +1,63 @@
+.titulo{
+    font-style: oblique;
+    -webkit-text-stroke: 1px rgb(255, 255, 255);
+    font-size: 200%;
+    color: #860000;
+    text-align: start;
+    font-family: Neusa,Impact,Helvetica Neue,Arial,Sans-Serif;
+}
+body{
+    font-style: oblique;
+    background-image: url(images/Fondo2.jfif);
+    color: rgb(255, 255, 255); 
+    font-size: 150%;
+    font-family: "Franklin Gothic",-apple-system,BlinkMacSystemFont,"PT Sans",Arial,Sans-Serif;
+}
+h1{
+    -webkit-text-stroke: 1px rgb(0, 0, 0);
+    color: #f3f3f3;
+    font-size: 220%;
+}
+section{
+    display: inline;
+    display: flex;
+    background-color: rgb(17, 17, 17);
+    border-radius: 15px;
+    height: 100px;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 25px;
+}
+.Imagen{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    justify-content: space-evenly;
+    display: flex;
+    background-color:  #f3f3f3;
+    border-radius: 15px;
+    color: black;
+    font-family: "Franklin Gothic",-apple-system,BlinkMacSystemFont,"PT Sans",Arial,Sans-Serif;
+}
+ul{
+
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    list-style-type: none;
+
+}
+.Descripcion2{
+    background-color: #f3f3f3;
+    border-radius: 15px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 100%;
+    margin: 1%;
+    font-family: "Franklin Gothic",-apple-system,BlinkMacSystemFont,"PT Sans",Arial,Sans-Serif;
+}
+.textoEncima{
+        position: absolute;
+        top: 37%;
+        left: 3%;
+}
